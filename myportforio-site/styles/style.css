@@ -1,0 +1,55 @@
+html {
+    font-size: 10px; /* px は「ピクセル」 (pixels) の意味。ベースフォントサイズは 10 ピクセルの高さになった */
+    font-family: "Ubuntu Mono", monospace; /* これが Google フォントから取得した残りの出力になるはず。 */
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color:#020826;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+}  
+
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:#f9f4ef;
+    color:(#716040);
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* 必要に応じて調整 */
+}
+
+
+.profile-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.link-logo {
+    width: 50px;
+    height: 50px;
+}
